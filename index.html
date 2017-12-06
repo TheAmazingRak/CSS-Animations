@@ -6,19 +6,26 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <div class="container">
-      <div class="content">
-        <div class="sliding">
-          <h1>Sliding</h1>
-          <div class="animations_divs"> <span class="aniamtions_text" id="slider_text_horizontal">Hello World!</span> </div>
-          <div class="animations_divs"> <span class="aniamtions_text" id="slider_text_vertical">Hello World!</span> </div>
-          <div class="animations_divs"> <span class="animations_text" id="slider_text_diagonal">Hello World!</span> </div>
-        </div>
-        <div class="rotating">
-          <h1>Rotating</h1>
-          <div class="animations_divs"> <span class="animations_text" id="rotate_text_right">Hello World!</span> </div>
-          <div class="animations_divs"> <span class="animations_text" id="rotate_text_left">Hello World!</span> </div>
-        </div>
+    <div class="content">
+
+      <div class="sliding">
+        <h1>Sliding</h1>
+        <div id="sliding_horizontal" class="animations_divs"></div>
+        <div id="sliding_vertical" class="animations_divs"></div>
+        <div id="sliding_diagonal" class="animations_divs"></div>
+      </div>
+
+      <div class="margin_div"></div>
+
+      <div class="rotating">
+        <h1>Rotating</h1>
+        <div id="rotating_right" class="animations_divs"></div>
+        <div id="rotating_left" class="animations_divs"></div>
+      </div>
+
+      <div class="colors">
+          <h1>Colors</h1>
+          <div id="color_rainbow" class="animations_divs"></div>
       </div>
     </div>
   </body>
