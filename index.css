@@ -1,0 +1,91 @@
+.animations_divs{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+#slider_text_horizontal{
+    position: relative;
+    -webkit-animation-name: sliding_text_horizontal;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: sliding_text_horizontal;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes sliding_text_horizontal {
+    0%  {left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100%  {left:0px; top:0px;}
+}
+
+@keyframes slider_text_horizontal {
+    0%   {left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100%   {left:0px; top:0px;}
+}
+
+#slider_text_vertical{
+    position: relative;
+    -webkit-animation-name: slider_text_vertical;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: slider_text_vertical;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes slider_text_vertical {
+    0%  {left:0px; top:0px;}
+    50%  {left:0px; top:200px;}
+    100%  {left:0px; top:0px;}
+}
+
+@keyframes slider_text_vertical {
+    0%   {left:0px; top:0px;}
+    50%  {left:0px; top:200px;}
+    100%   {left:0px; top:0px;}
+}
+
+#slider_text_diagonal{
+    position: relative;
+    -webkit-animation-name: slider_text_diagonal;
+    -webkit-animation-duration: 3.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: slider_text_diagonal;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes slider_text_diagonal {
+    0%  {left:0px; top:0px;}
+    50%  {left:200px; top:200px;}
+    100%  {left:0px; top:0px;}
+}
+
+@keyframes slider_text_diagonal {
+    0%   {left:0px; top:0px;}
+    50%  {left:200px; top:200px;}
+    100%   {left:0px; top:0px;}
+}
+
+#rotate_text_right{
+  position: relative;
+  -webkit-animation-name: rotate_text_right;
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: rotate_text_right;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: rotate_text_right;
+}
+
+@-webkit-keyframes rotate_text_right {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
